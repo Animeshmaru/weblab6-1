@@ -32,6 +32,52 @@
             <pre>  
     &lt;script> 
 
+        function Person(fname, lname, address) 
+        {
+            this.firstName = fname;
+            this.lastName = lname;
+            this.officeAddress = address;
+        }
+
+        const personOne = new Person('Animesh', 'Maru', 'Bhilwara, Rajasthan');
+        const personTwo = new Person('Himanshu', 'Rai', 'Patna, Bihar');
+        const personThree = new Person('Rachit', 'Suneja', 'Kota, Rajasthan');
+            
+        console.log("Person 1 : ");
+        console.log("First Name: "+ personOne.firstName )
+        console.log("Last Name: "+ personOne.lastName )
+        console.log("Office Address: "+ personOne.officeAddress )
+                
+        console.log("Person 2 : ");
+        console.log("First Name: "+ personTwo.firstName )
+        console.log("Last Name: "+ personTwo.lastName )
+        console.log("Office Address: "+ personTwo.officeAddress )
+                
+        console.log("Person 3 : ");
+        console.log("First Name: "+ personThree.firstName )
+        console.log("Last Name: "+ personThree.lastName )
+        console.log("Office Address: "+ personThree.officeAddress )
+
+    &lt;/script> 
+            </pre>
+            </div>
+            
+        </div>
+        <div class="output">
+            <h3>Output</h3>
+            <img src="images/output.png" alt="">
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="foot">
+            <h3>ANIMESH MARU</h3>
+            <h3>2006161</h3>
+        </div>
+    </div>
+</body>
+
+<script>
         function Person(fname, lname, add) 
         {
             this.firstName = fname;
@@ -58,52 +104,7 @@
         console.log("Last Name: "+ personThree.lastName )
         console.log("address: "+ personThree.address )
 
-    &lt;/script> 
-            </pre>
-            </div>
-            
-        </div>
-        <div class="output">
-            <h3>Output</h3>
-            <img src="images/output.png" alt="">
-        </div>
-    </div>
-
-    <div class="footer">
-        <div class="foot">
-            <h3>ANIMESH MARU</h3>
-            <h3>2006161</h3>
-        </div>
-    </div>
-</body>
-
-<script>
-    function Person(fname, lname, add) 
-        {
-            this.firstName = fname;
-            this.lastName = lname;
-            this.address = add;
-        }
-
-        const personOne = new Person('Animesh', 'Maru', 'Bhilwara, Rajasthan');
-        const personTwo = new Person('Himanshu', 'Rai', 'Patna, Bihar');
-        const personThree = new Person('Rachit', 'Suneja', 'Kota, Rajasthan');
-            
-        console.log("Person 1 : ");
-        console.log("First Name: "+ personOne.firstName )
-        console.log("Last Name: "+ personOne.lastName )
-        console.log("address: "+ personOne.address )
-                
-        console.log("Person 2 : ");
-        console.log("First Name: "+ personTwo.firstName )
-        console.log("Last Name: "+ personTwo.lastName )
-        console.log("address: "+ personTwo.address )
-                
-        console.log("Person 3 : ");
-        console.log("First Name: "+ personThree.firstName )
-        console.log("Last Name: "+ personThree.lastName )
-        console.log("address: "+ personThree.address )
-
+        
 </script>
 
 </html>
