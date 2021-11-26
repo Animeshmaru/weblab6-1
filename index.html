@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.jfif" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css">
+    <title>ANIMESH</title>
+</head>
+<body>
+    <div class="head">
+        <img class="logo" src="images/logo.jfif" alt="logo" />
+        <h2>National Institute Of Technology, Patna</h2>
+    </div>
+    <div class="lab">
+        <h2 class="title">WEB-LAB NO. 6</h2>
+    </div>
+
+    <h4 class="title">TASK-1 :   </h4>
+    <div class="ques">
+        <p>Create an object ‘Person’ in Java Script, which will have ‘FirstName’, ’LastName’ and ‘Office Address’ as properties within it. Create three Persons and print all those three properties.</p>
+        
+    </div>
+    
+    <h4 class="title">ANS :</h4>
+    <div class="ans"> 
+        Creating an object and it's properties :
+        <div class="one">
+            <h3>JavaScript Code</h3>
+            <div class="steps_cont">
+            <pre>  
+    &lt;script> 
+
+        function Person(fname, lname, add) 
+        {
+            this.firstName = fname;
+            this.lastName = lname;
+            this.address = add;
+        }
+
+        const personOne = new Person('Animesh', 'Maru', 'Bhilwara, Rajasthan');
+        const personTwo = new Person('Himanshu', 'Rai', 'Patna, Bihar');
+        const personThree = new Person('Rachit', 'Suneja', 'Kota, Rajasthan');
+            
+        console.log("Person 1 : ");
+        console.log("First Name: "+ personOne.firstName )
+        console.log("Last Name: "+ personOne.lastName )
+        console.log("address: "+ personOne.address )
+                
+        console.log("Person 2 : ");
+        console.log("First Name: "+ personTwo.firstName )
+        console.log("Last Name: "+ personTwo.lastName )
+        console.log("address: "+ personTwo.address )
+                
+        console.log("Person 3 : ");
+        console.log("First Name: "+ personThree.firstName )
+        console.log("Last Name: "+ personThree.lastName )
+        console.log("address: "+ personThree.address )
+
+    &lt;/script> 
+            </pre>
+            </div>
+            
+        </div>
+        <div class="output">
+            <h3>Output</h3>
+            <img src="images/output.png" alt="">
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="foot">
+            <h3>ANIMESH MARU</h3>
+            <h3>2006161</h3>
+        </div>
+    </div>
+</body>
+
+<script>
+    function Person(fname, lname, add) 
+        {
+            this.firstName = fname;
+            this.lastName = lname;
+            this.address = add;
+        }
+
+        const personOne = new Person('Animesh', 'Maru', 'Bhilwara, Rajasthan');
+        const personTwo = new Person('Himanshu', 'Rai', 'Patna, Bihar');
+        const personThree = new Person('Rachit', 'Suneja', 'Kota, Rajasthan');
+            
+        console.log("Person 1 : ");
+        console.log("First Name: "+ personOne.firstName )
+        console.log("Last Name: "+ personOne.lastName )
+        console.log("address: "+ personOne.address )
+                
+        console.log("Person 2 : ");
+        console.log("First Name: "+ personTwo.firstName )
+        console.log("Last Name: "+ personTwo.lastName )
+        console.log("address: "+ personTwo.address )
+                
+        console.log("Person 3 : ");
+        console.log("First Name: "+ personThree.firstName )
+        console.log("Last Name: "+ personThree.lastName )
+        console.log("address: "+ personThree.address )
+
+</script>
+
+</html>
